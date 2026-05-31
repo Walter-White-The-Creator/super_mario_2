@@ -9,23 +9,49 @@
 <body>
 
   <header>
-    <div class="logo">?</div>
+    <div class="logo"></div>
     <h1>Super Mario</h1>
   </header>
 
   <nav>
     <a href="../index.html">Home</a>
-    <a href="game.html">Spel</a>
+    <a href="game.html" class="actief">Spel</a>
     <a href="../404.html">Test 404</a>
   </nav>
 
   <main>
     <h2>Verzamel de munten!</h2>
+
     <div class="speelveld">
-      <div class="blok"><div class="coin"></div><button class="knop" onclick="toonCoin(this)">?</button></div>
-      <div class="blok"><div class="coin"></div><button class="knop" onclick="toonCoin(this)">?</button></div>
-      <div class="blok"><div class="coin"></div><button class="knop" onclick="toonCoin(this)">?</button></div>
-      <div class="blok"><div class="coin"></div><button class="knop" onclick="toonCoin(this)">?</button></div>
+
+      <div class="blok">
+        <div class="coin-wrapper">
+          <img class="coin" src="../media/coin1.gif" alt="munt">
+        </div>
+        <button class="knop" onclick="toonCoin(this)"></button>
+      </div>
+
+      <div class="blok">
+        <div class="coin-wrapper">
+          <img class="coin" src="../media/coin2.gif" alt="munt">
+        </div>
+        <button class="knop" onclick="toonCoin(this)"></button>
+      </div>
+
+      <div class="blok">
+        <div class="coin-wrapper">
+          <img class="coin" src="../media/coin3.gif" alt="munt">
+        </div>
+        <button class="knop" onclick="toonCoin(this)"></button>
+      </div>
+
+      <div class="blok">
+        <div class="coin-wrapper">
+          <img class="coin" src="../media/coin4.gif" alt="munt">
+        </div>
+        <button class="knop" onclick="toonCoin(this)"></button>
+      </div>
+
       <p id="score">Coins: 0</p>
     </div>
   </main>
